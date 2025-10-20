@@ -114,6 +114,49 @@ button:hover {
   border-radius: 4px;
 }
 
+/* Participants section styling */
+.participants {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px dashed #eee;
+}
+
+.participants h5 {
+  margin: 0 0 8px 0;
+  font-size: 14px;
+  color: #1a237e;
+  font-weight: 700;
+}
+
+.participants-list {
+  list-style: disc inside;
+  margin: 0;
+  padding: 0 0 0 12px;
+  display: block;
+}
+
+.participants-list li {
+  padding: 6px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.participants-list li::before {
+  content: "\25CF"; /* small circle */
+  color: #6c63ff;
+  font-size: 10px;
+  margin-right: 8px;
+  display: inline-block;
+  width: 10px;
+}
+
+.participants-empty {
+  color: #666;
+  font-style: italic;
+  margin: 6px 0 0 0;
+}
+
 .success {
   background-color: #e8f5e9;
   color: #2e7d32;
